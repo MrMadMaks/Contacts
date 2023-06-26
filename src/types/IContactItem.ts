@@ -1,0 +1,15 @@
+export interface IContactItem {
+    name: string,
+    address: string,
+    phone: string,
+    email: string,
+    id: string,
+    avatar: string,
+    setOpen(toggle: boolean): void,
+    setAddress(address: string): void,
+    setPhone(phone: string): void,
+    setEmail(email: string): void,
+    setName(name: string): void,
+    setAvatar(avatar: string): void,
+    showId(id: string): void,
+}
